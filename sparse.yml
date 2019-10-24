@@ -1,0 +1,36 @@
+# For future repos, e.g. if we add BK etc., copy and paste the github url below
+repo: https://github.com/eagleinvsys-sd/sd-core-17
+# Replace <USERNAME> and <ENCRYPTED PASSWORD> below, for instructions on getting the encrypted password see
+# https://eagleinvsys.atlassian.net/wiki/spaces/SDDEVOPS/pages/938973896/GIT-LFS+Configuration+DO+THIS+FIRST
+lfs: https://<USERNAME>:<ENCRYPTED PASSWORD>@inno-artifactory.eagleinvsys.com/artifactory/api/lfs/sd-core-17-lfs
+# By default, git clone will create a directory with the same name as the repo.
+# If you want to change it, add a different directory name below (relative or absolute path)
+directory: 
+# Add to the sparse list below as needed e.g. uncomment by deleting "# "
+# Do not remove the hidden . files in the root directory
+sparse:
+- /.gitattributes
+- /.gitignore
+- /.lfsconfig
+# - /3rdparty/bindebug/win64.vc16/
+# - /3rdparty/src/boostlib/
+# - /3rdparty/src/fmt/
+# - /3rdparty/src/googletest/
+# - /3rdparty/src/jsoncpp11/
+# - /3rdparty/src/lexertl/
+# - /3rdparty/src/lua/
+# - /3rdparty/src/parsertl/
+# - /3rdparty/src/pugixml/
+# - /3rdparty/src/sqlite/
+# - /eagle/estar/tpe/dynamic/dat/accounting/
+# - /eagle/estar/tpe/dynamic/dat/eagle/star/
+# - /eagle/estar/tpe/dynamic/dat/nxgpdc/portfolio desk/
+# - /eagle/estar/tpe/dynamic/dat/nxgrdc/reference desk/
+# - /eagle/estar/tpe/dynamic/profiledat/
+# - /eagle/estar/tpe/dynamic/resultprofiledll/
+# - /EDM/
+# - /src/shared/common/
+# - /src/shared/liblogger/
+# - /src/shared/util/
+# - /src/shared/versioninfo/
+- /src/star_engine/
